@@ -1,0 +1,30 @@
+Body {
+    margin:auto;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background: #1f2937;
+    padding: 0px 150px;
+}
+.up {
+    padding: 1px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+ ul {
+    display: flex;
+    gap: 10px;
+    list-style-type:none;
+}
+ a {
+    text-decoration: none;
+    color: #efe7eb;
+    font-size: 18px;
+}
