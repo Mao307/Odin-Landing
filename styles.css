@@ -9,7 +9,7 @@ Body {
     padding: 0px 150px;
 }
 .up {
-    padding: 1px;
+    padding: 1px 50px;
     display: flex;
     align-items:  center;
     justify-content: space-between;
@@ -17,6 +17,7 @@ Body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
  ul {
     display: flex;
@@ -27,4 +28,53 @@ Body {
     text-decoration: none;
     color: #efe7eb;
     font-size: 18px;
+}
+.down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap:50px;
+}
+.left {
+     
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 700px;
+    height: 100%;
+}
+
+.right {
+    
+    width: 700px;
+    height: 200px;
+}
+
+.right img {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.left h1 {
+    font-size: 48Px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+.left p {
+    margin: 0;
+    color: #efe7eb;
+    font-size: 18px;
+}
+.left button {
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 12px 24px;
+    width: 140px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 900;
 }
