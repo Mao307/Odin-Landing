@@ -111,3 +111,34 @@ Body {
     border-style:solid;
     align-self: center;
 }
+.qoute{
+    display: flex;
+    Background:#e5e7eb;
+    padding:100px 35px 50px 50px;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    
+}
+.text p{
+    
+    font-style:italic;
+    font-weight:50;
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+    justify-self: center;
+    margin:0;
+    font-family: 'Noto sans',sans-serif;
+}
+.name{
+    font-size: 14px;
+    font-weight:900;
+    align-self: flex-end;
+    margin:0;
+    padding-right: 30px;
+    
+}
