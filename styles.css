@@ -43,18 +43,20 @@ Body {
     justify-content: center;
     width: 700px;
     height: 100%;
+    
 }
 
 .right {
     
     width: 700px;
-    height: 200px;
+    height: 300px;
 }
 
 .right img {
     margin: 0;
     height: 100%;
     width: 100%;
+    
 }
 .left h1 {
     font-size: 48Px;
@@ -77,4 +79,35 @@ Body {
     margin-top: 12px;
     font-size: 16px;
     font-weight: 900;
+}
+.second {
+    background: white;
+    text-align: center;
+}
+.second h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    margin-bottom: 50px;
+}
+.products {
+    display: Flex;
+    justify-content: center;
+    gap:50px;
+
+}
+.info{
+    display:flex;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: #3882f6;
+    border-radius:8px;
+    border-style:solid;
+    align-self: center;
 }
